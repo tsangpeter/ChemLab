@@ -1,0 +1,66 @@
+* {
+  font-family: 'Tauri', sans-serif;
+}
+.element-container {
+  display: inline-block;
+  height: 5.75em;
+  width: 5em;
+  border: 0.2em solid black;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 #999;
+}
+.atomic-number {
+  position: relative;
+  left: 0.25em;
+}
+
+.element-symbol {
+  position: relative;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 0.75em;
+}
+.element-name {
+  position: relative;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.atomic-weight {
+  position: relative;
+  font-size: 0.5em;
+  top: 2em;
+  right: 0.25em;  
+  float: right;
+}
+.dotted {
+    width: 5em;
+    height: 5.75em;
+    line-height: 80px;
+    border: 1px dotted gray;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-align: center;
+    float: left;
+    color: gray;
+    background-color: lightgray;
+
+}
+#results{
+  display: inline-block;
+  width: 13em;
+  height: auto;
+  border:2px solid black;
+  padding: 1em;
+  background: rgba(255,255,255,0.6);
+  margin: 10px;
+}
+#questions,#results,{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.block {
+  margin-top: 100px;
+  margin-left: 25%;
+}

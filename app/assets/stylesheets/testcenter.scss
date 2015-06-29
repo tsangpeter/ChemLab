@@ -1,0 +1,36 @@
+// Place all the styles related to the testcenter controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.square {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-align: center;
+    float: left;
+    // background-color: lightblue;
+    cursor: pointer;
+    font-weight: bold;
+    //background-image: url('/assets/hydrogen.png');
+}
+ 
+.squaredotted {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border: 1px dotted gray;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-align: center;
+    float: left;
+    color: gray;
+    background-color: lightgray;
+
+}
+
+
+
+  

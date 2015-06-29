@@ -1,0 +1,33 @@
+// Place all the styles related to the lewisdot controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.collapsible {
+	
+}
+.collapsible-body {
+  display: none;
+  background-color: white;
+
+  p {
+    margin: 0;
+    padding: 2rem;
+  }
+}
+
+.himg {
+	float: left;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	margin-left: 225px;
+}
+
+.himg2 {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	margin-left: 325px;
+}
