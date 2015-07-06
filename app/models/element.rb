@@ -4,7 +4,7 @@ class Element
 
 	def initialize(options = {})
 		@name = options[:name]
-		@wiki = , :wiki, :group, :position, :number, :molar, :electrons, :small
+		@wiki = :wiki, :group, :position, :number, :molar, :electrons, :small
 	end
 
 end
