@@ -22,9 +22,9 @@ $(document).ready(main);
 	}
 
 	function dropQuestion(event,ui){
-		var contQuestion =$(this);
+		var contQuestion = $(this);
 		var answer = ui.draggable;
-
+		console.log(answer)
 		var correct = contQuestion.text().toLowerCase();
 		correct = correct.trim();
 		var pos = contQuestion.position();
